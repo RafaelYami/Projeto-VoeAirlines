@@ -1,0 +1,13 @@
+package br.com.voeairlines.bo;
+
+public class ClienteBO implements IValidacaoEmbarque {
+	
+	//Sobrepor - Polimorfismo.
+	@Override
+	public void validaIdade(int idade) {
+		if(idade < IValidacaoEmbarque.IDADEMIN) {
+			
+		}
+	}
+
+}

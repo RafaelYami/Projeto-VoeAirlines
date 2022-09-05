@@ -1,0 +1,15 @@
+package br.com.voeairlines.bo;
+
+public class PilotoBO {
+	
+	public String ValidaPiloto(String nome) {
+		String r;
+		if(nome.equals(IValidacaoDecolar.MOCKPILOTO)) {
+			r = "Decolagem autorizada! Boa viajem!";
+		}else {
+			r = "Decolagem não autorizada!";
+		}
+		return r;
+	}
+	
+}

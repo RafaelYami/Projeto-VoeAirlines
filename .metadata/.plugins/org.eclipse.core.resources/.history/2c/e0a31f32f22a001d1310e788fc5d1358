@@ -1,0 +1,10 @@
+package br.com.voeairlines.bo;
+
+public class ClienteBO implements IValidacaoEmbarque {
+
+	@Override
+	public void validaIdade() {
+		
+	}
+
+}

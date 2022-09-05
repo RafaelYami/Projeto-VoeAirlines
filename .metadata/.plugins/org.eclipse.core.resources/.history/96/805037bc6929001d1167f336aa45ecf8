@@ -1,0 +1,16 @@
+package br.com.voeairlines.frontend;
+
+import br.com.voeairlines.entities.*;
+import br.com.voeairlines.dao.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Aeronave a = new Aeronave("Embraery", "Bandeirante", "EMB-100");
+		AeronaveDAO aeronaveDAO = new AeronaveDAO();
+		
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package br.com.voeairlines.bo;
+
+public interface IValidacaoEmbarque {
+
+	public abstract void validaIdade();
+	
+}

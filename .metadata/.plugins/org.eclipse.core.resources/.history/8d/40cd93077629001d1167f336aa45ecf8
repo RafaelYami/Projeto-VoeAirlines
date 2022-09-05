@@ -1,0 +1,25 @@
+package br.com.voeairlines.frontend;
+
+import br.com.voeairlines.entities.*;
+import br.com.voeairlines.dao.*;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Aeronave aeronave1 = new Aeronave("Embraery", "Bandeirante", "EMB-100");
+		AeronaveDAO aeronaveDAO = new AeronaveDAO();
+		System.out.println(aeronaveDAO.cadastrarAeronave(aeronave1));
+		
+		Aeronave aeronave2 = new Aeronave("Embraery", "Bandeirante", "EMB-110");
+		AeronaveDAO aeronaveDAO2 = new AeronaveDAO();
+		System.out.println(aeronaveDAO2.cadastrarAeronave(aeronave2));
+		
+		Aeronave aeronave3 = new Aeronave("Embraery", "Bandeirante", "EMB-110A");
+		AeronaveDAO aeronaveDAO3 = new AeronaveDAO();
+		System.out.println(aeronaveDAO3.cadastrarAeronave(aeronave3));
+		
+
+	}
+
+}
